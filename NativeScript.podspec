@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/NativeScript/ios-v8-pod.git", :tag => s.version }
     s.vendored_frameworks = "NativeScript.xcframework"
     s.platform = :ios
-    # s.ios.deployment_target  = '12.0'
+    s.ios.deployment_target  = '12.0'
     s.prepare_command = 'ruby add_build_phases.rb'
 end
