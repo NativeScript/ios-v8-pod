@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "NativeScript.xcframework"
     s.platform = :ios
     s.ios.deployment_target  = '12.0'
-    s.prepare_command = 'ruby add_build_phases.rb'
+    #s.prepare_command = 'ruby add_build_phases.rb'
+    s.script_phase = {:name => 'Hello World', :script => 'echo "Hello World"'}
 end
