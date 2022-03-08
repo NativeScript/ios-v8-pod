@@ -6,15 +6,11 @@
 	<dict>
 		<key>Headers/NativeScript.h</key>
 		<data>
-		qbVTko+rVmNrsxgZA+CPTzsTMtY=
+		hWZI8gx3DIxIbbJsRZ6IyL7Oebc=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		ChIf8poCTDG/z5ZDIId8Q7Uvd2I=
-		</data>
-		<key>metadata-x86_64.bin</key>
-		<data>
-		Pq+AhYkVL2wghoAIm4hK/CAVzPo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,22 +19,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qbVTko+rVmNrsxgZA+CPTzsTMtY=
+			hWZI8gx3DIxIbbJsRZ6IyL7Oebc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pJVoQnw2aRsJsZiM281JCJYAFa/qvTEPRlQnJgf3Lvw=
-			</data>
-		</dict>
-		<key>metadata-x86_64.bin</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Pq+AhYkVL2wghoAIm4hK/CAVzPo=
-			</data>
-			<key>hash2</key>
-			<data>
-			E3QnsLFbtqy4S0acUJgcYG59X2D1J6ZsHY6MY+UQguU=
+			AkVbkNE8NQvW+Eaw+kq4zZpVlpR2Kd0CzA5ZPZczgMQ=
 			</data>
 		</dict>
 	</dict>
