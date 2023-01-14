@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
     s.authors = { 'NativeScript Team' => 'oss@nativescript.org' }
     s.social_media_url = 'https://twitter.com/NativeScript'
     s.source       = { :git => "https://github.com/NativeScript/ios-v8-pod.git", :tag => s.version }
+    s.source_files = './Sources/*.{h,m}'
     s.vendored_frameworks = "NativeScript.xcframework"
-    s.public_header_files = './NativeScript.xcframework/ios-arm64/NativeScript.framework/Headers/*.h', './NativeScript.xcframework/ios-arm64_x86_64-maccatalyst/NativeScript.framework/Headers/*.h', './NativeScript.xcframework/ios-arm64_x86_64-simulator/NativeScript.framework/Headers/*.h'
+    s.public_header_files = './Sources/*.h', './NativeScript.xcframework/ios-arm64/NativeScript.framework/Headers/*.h', './NativeScript.xcframework/ios-arm64_x86_64-maccatalyst/NativeScript.framework/Headers/*.h', './NativeScript.xcframework/ios-arm64_x86_64-simulator/NativeScript.framework/Headers/*.h'
     s.resources =  "resources/*"
     s.platform = :ios
     s.ios.deployment_target  = '12.0'
