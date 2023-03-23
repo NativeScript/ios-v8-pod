@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
     s.license = "MIT"
     s.authors = { 'NativeScript Team' => 'oss@nativescript.org' }
     s.social_media_url = 'https://twitter.com/NativeScript'
+    s.source       = { :git => "https://github.com/NativeScript/ios-v8-pod.git", :branch => "master" }
     #s.source       = { :http => 'https://github.com/NativeScript/ios-v8-pod/releases/download/8.5.0/NativeScriptSDK.zip' }
     s.source_files = 'Sources/*.{h,m}'
     s.vendored_frameworks = "NativeScript.xcframework"
