@@ -1,3 +1,4 @@
 *.xcframework filter=lfs diff=lfs merge=lfs -text
 *.xcframework/** filter=lfs diff=lfs merge=lfs -text
 .gitattributes merge=gitattributes
+NativeScript.xcframework/** filter=lfs diff=lfs merge=lfs -text
