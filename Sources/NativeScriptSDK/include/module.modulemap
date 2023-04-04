@@ -1,0 +1,3 @@
+module NativeScriptSDK {
+    header "NativeScriptSDK.h"
+}
